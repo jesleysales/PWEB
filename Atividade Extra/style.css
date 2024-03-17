@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://receitasrapidas.org/wp-content/webp-express/webp-images/uploads/2023/02/Pudim_leite_condensado-3.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

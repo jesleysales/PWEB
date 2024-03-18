@@ -1,0 +1,58 @@
+.container {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.container h2::after {
+    content: attr(data-color);
+    font-size: 24px;
+}
+@media (max-width: 420px) {
+    .container {
+        background-color: blue;
+    }
+    .container h2::after {
+        content: "Azul";
+        font-family: "Praise", cursive;
+    }
+}
+@media (min-width: 421px) and (max-width: 768px) {
+    .container {
+        background-color: orange;
+    }
+    .container h2::after {
+        content: "Laranja";
+        font-family: "Praise", cursive;
+    }
+}
+@media (min-width: 769px) and (max-width: 1080px) {
+    .container {
+        background-color: #FFC0CB;
+    }
+    .container h2::after {
+        content: "Rosa";
+        font-family: "Praise", cursive;
+    }
+}
+
+@media (min-width: 1081px) and (max-width: 1366px) {
+    .container {
+        background-color: red;
+    }
+    .container h2::after {
+        content: "Vermelho";
+        font-family: "Praise", cursive;
+    }
+}
+@media (min-width: 1367px) {
+    .container {
+        background-color: green;
+    }
+    .container h2::after {
+        content: "Verde";
+        font-family: "Praise", cursive;
+    }
+}

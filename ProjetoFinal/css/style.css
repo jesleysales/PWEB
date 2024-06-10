@@ -68,9 +68,9 @@ button:hover {
 }
 
 .task.due-today {
-    border-color: #dc3545; /* Cor vermelha */
+    border-color: #dc3545;
 }
 
 .task.due-today h3 {
-    color: #dc3545; /* Cor vermelha */
+    color: #dc3545;
 }
